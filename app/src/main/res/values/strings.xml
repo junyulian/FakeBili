@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FakeBili</string>
+
+
+    <!--MainHomeFragment:tabLayout-->
+    <string-array name="tab_titles_main_home">
+        <item>直播</item>
+        <item>推荐</item>
+        <item>追番</item>
+        <item>专栏</item>
+    </string-array>
+
+</resources>

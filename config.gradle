@@ -1,0 +1,49 @@
+ext{
+
+    version = [
+        butterknifeSdkVersion: "10.2.1",
+        materialVerson: "1.0.0",
+        eventBusVersion: "3.2.0",
+        rxjavaVersion:  "2.2.7",
+        rxandroidVersion: "2.1.1",
+        rxbinding3Versionn: "3.1.0",
+        retrofit2Version: "2.8.1",
+        rxlifecycle3Version: "3.1.0",
+        retrofit2Version: "2.8.1",
+        rxlifecycle3Version: "3.1.0",
+    ]
+
+    dependencies = [
+        //rx
+        "rxjava"                          : "io.reactivex.rxjava2:rxjava:${version["rxjavaVersion"]}",
+        "rxandroid"                       : "io.reactivex.rxjava2:rxandroid:${version["rxandroidVersion"]}",
+        "rxbinding"                       : "com.jakewharton.rxbinding3:rxbinding:${version["rxbinding3Versionn"]}",
+        "rxbinding-core"                  : "com.jakewharton.rxbinding3:rxbinding-core:${version["rxbinding3Versionn"]}",
+        "rxbinding-appcompat"             : "com.jakewharton.rxbinding3:rxbinding-appcompat:${version["rxbinding3Versionn"]}",
+        "rxbinding-drawerlayout"          : "com.jakewharton.rxbinding3:rxbinding-drawerlayout:${version["rxbinding3Versionn"]}",
+        "rxbinding-leanback"              : "com.jakewharton.rxbinding3:rxbinding-leanback:${version["rxbinding3Versionn"]}",
+        "rxbinding-recyclerview"          : "com.jakewharton.rxbinding3:rxbinding-recyclerview:${version["rxbinding3Versionn"]}",
+        "rxbinding-slidingpanelayout"     : "com.jakewharton.rxbinding3:rxbinding-slidingpanelayout:${version["rxbinding3Versionn"]}",
+        "rxbinding-swiperefreshlayout"    : "com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:${version["rxbinding3Versionn"]}",
+        "rxbinding-viewpager"             : "com.jakewharton.rxbinding3:rxbinding-viewpager:${version["rxbinding3Versionn"]}",
+        "rxbinding-viewpager2"            : "com.jakewharton.rxbinding3:rxbinding-viewpager2:${version["rxbinding3Versionn"]}",
+
+        "rxlifecycle"                     : "com.trello.rxlifecycle3:rxlifecycle:${version["rxlifecycle3Version"]}",
+        "rxlifecycle-android"             : "com.trello.rxlifecycle3:rxlifecycle-android:${version["rxlifecycle3Version"]}",
+        "rxlifecycle-components"          : "com.trello.rxlifecycle3:rxlifecycle-components:${version["rxlifecycle3Version"]}",
+
+        //net
+        "retrofit"                        : "com.squareup.retrofit2:retrofit:${version["retrofit2Version"]}",
+        "adapter-rxjava2"                 : "com.squareup.retrofit2:adapter-rxjava2:${version["retrofit2Version"]}",
+        "converter-gson"                  : "com.squareup.retrofit2:converter-gson:${version["retrofit2Version"]}",
+        "converter_scalars"               : "com.squareup.retrofit2:converter-scalars:${version["retrofit2Version"]}",
+
+        //view
+        "butterknife"                     : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
+        "butterknife-compiler"            : "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
+        "material"                        : "com.google.android.material:material:${version["materialVerson"]}",
+        "FlycoTabLayout_Lib"              : "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar",//Tab切换
+        //tools
+        "EventBus"                        : "org.greenrobot:eventbus:${version["eventBusVersion"]}"
+    ]
+}

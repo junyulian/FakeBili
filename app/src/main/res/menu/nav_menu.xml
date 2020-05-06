@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@mipmap/ic_nav_home"
+            android:title="首页"/>
+        <item
+            android:id="@+id/nav_history"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_history"
+            android:title="历史记录"/>
+
+        <item
+            android:id="@+id/nav_offline_cache"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_offline_cache"
+            android:title="离线缓存"/>
+
+        <item
+            android:id="@+id/nav_my_collect"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_my_collect"
+            android:title="我的收藏"/>
+        <item
+            android:id="@+id/nav_my_follow"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_my_follow"
+            android:title="我的关注"/>
+
+        <item
+            android:id="@+id/nav_look_later"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_look_later"
+            android:title="稍后再看"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_live_center"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_live_center"
+            android:title="直播中心"/>
+
+        <item
+            android:id="@+id/nav_my_vip"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_my_vip"
+            android:title="我的大会员"/>
+
+        <item
+            android:id="@+id/nav_free_fow"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_free_fow"
+            android:title="免流量服务"/>
+
+        <item
+            android:id="@+id/nav_vip_order"
+            android:checkable="true"
+            android:icon="@mipmap/ic_nav_vip_order"
+            android:title="会员购订单"/>
+
+    </group>
+
+</menu>

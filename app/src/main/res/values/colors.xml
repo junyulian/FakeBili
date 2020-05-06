@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fb7299</color>
+    <color name="colorPrimaryDark">#b85671</color>
+    <color name="colorAccent">@android:color/black</color>
+
+
+    <color name="main_bg">#FFFFFF</color>
+    <color name="fragment_bg">#F4F4F4</color>
+
+    <!--MainActivity:侧边栏-->
+    <color name="nav_header_text">#FFFFFF</color>
+    <color name="nav_menu_bg">#FFFFFF</color>
+    <color name="nav_bottom_line">#DDDDDD</color>
+    <color name="nav_bottom_text">#464646</color>
+
+    <!--NavHomeFragment:底部导航栏-->
+    <color name="bottom_bar_under_line_nav_home">#DDDDDD</color>
+    <color name="bottom_bar_text_select_nav_home">#FA749A</color>
+    <color name="bottom_bar_text_unselect_nav_home">#87888A</color>
+
+    <!--MainHomeFragment/MainCategoryFragment/MainDynamivFragment/MainCommunicateFragment:顶部导航栏-->
+    <color name="toolbar_title_fragment">#FFFFFF</color>
+    <color name="tab_indicator_fragment">#FFFFFF</color>
+    <color name="tab_text_fragment">#FFFFFF</color>
+    <color name="tab_text_selected_fragment">#fb7299</color>
+    <color name="tip_no_login_dynamic">#404040</color>
+    <color name="btn_no_login_text_dynamic">#FFFFFF</color>
+    <color name="btn_no_login_bg_dynamic">#FB7299</color>
+    <color name="btn_no_login_text_communicate">#BBBBBB</color>
+
+    <!--CommendFragment-->
+    <color name="top_title_rank_tag_recommend">#F4F4F4</color>
+    <color name="top_left_text_recommend">#FB7299</color>
+    <color name="top_right_text_recommend">#999999</color>
+
+</resources>
